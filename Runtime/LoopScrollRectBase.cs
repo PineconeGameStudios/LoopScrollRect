@@ -2086,6 +2086,10 @@ namespace UnityEngine.UI
         /// Called by the layout system.
         /// </summary>
         public virtual float flexibleWidth { get { return -1; } }
+        /// <summary>
+        /// Called by the layout system.
+        /// </summary>
+        public virtual float maxWidth { get { return -1; } }
 
         /// <summary>
         /// Called by the layout system.
@@ -2099,6 +2103,10 @@ namespace UnityEngine.UI
         /// Called by the layout system.
         /// </summary>
         public virtual float flexibleHeight { get { return -1; } }
+        /// <summary>
+        /// Called by the layout system.
+        /// </summary>
+        public virtual float maxHeight { get { return -1; } }
 
         /// <summary>
         /// Called by the layout system.
